@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 13px "Trebuchet MS",Arial,Helvetica,sans-serif;
+    color: #444;
+    background: #B17E4F;
+}
+body,p, h1, h2, h3, ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    color: #9eae5c;
+}
+#wrapper {
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+header {
+    height: 120px;
+    color: rgb(206, 177, 134);
+    display: inline-block;
+    background: #B17E4F;
+    width: 100%;
+    
+}
+header p {
+display: block;
+float: right;
+    font-size: 120%;
+padding: 78px 30px 10px 250px;}
+header a {
+    font-size: 330%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 60px 0 10px 30px;
+    float: left;
+    }
+.clearfix {clear: both;}
+
+
+.main {
+ 
+padding: 15px;}
+
+nav {
+    display: block;
+   margin-bottom: 15px;
+    
+}
+      
+nav ul {
+  display: -webkit-flex; 
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+   
+    
+    
+}
+nav li{
+    flex-basis: 20%;
+    align-items:center;
+}
+
+nav a {
+  padding: 1em;
+  display: block;
+  color: #fff;
+  background: #000;
+    text-transform:uppercase;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+  
+}
+nav a:hover {background: #2c2c2c}
+
+    figure img {
+         width: 100%;  
+        margin-bottom: 15px;
+    }
+
+.content {
+    line-height: 2;
+
+    }
+h3>a {color: #9f6841;
+font-size: 280%;
+text-decoration: none;
+text-transform:lowercase;
+    line-height: 0;
+}
+
+
+.left__side {
+    width: 580px;
+    float:left; 
+    margin: 0 15px 0 15px;
+    
+}
+.left__side p {
+    padding-bottom: 30px;
+}
+
+.right__side {
+    width: 310px;
+    float:right;
+    
+}
+.box {
+    background: #efede5;
+    margin-bottom: 20px;
+    padding-top: 0.1px;
+}
+
+.box h4 {
+    background: #5d9ebd;
+    margin: 8px;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 150%;
+    padding: 5px 15px;
+}
+.box a {
+    text-decoration: none;
+}
+.box ul,.box p  {
+    padding: 10px 20px 20px 20px;
+}
+.box li {
+    border-bottom: 1px solid #e8e6de;
+    list-style-type: none;
+    padding-bottom: 4px;
+    
+}
+
+
+
+
+footer{
+    clear: both;
+    height: 125px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+   
+   
+footer p {
+    
+    margin: 15px 15px 30px 15px;
+    height: 80px;
+    background: #d1e4a7;
+    line-height: 80px;
+    text-align: center;
+} 
+
+    
+   
